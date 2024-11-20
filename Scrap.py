@@ -1,17 +1,4 @@
-"""
-This file will scrap the website that we will get from topHospital file.
 
-Since I wasn't not aware of task like 
-    to suggest medicine: would have scraped data form top medical books
-    to suggest doctor: should have scraped data from websites like practo
-So I scraped all data in 'p'.
-
-to keep the scraping process faster I kept MAX_DEPTH to 0 that is main page only  i.e., visiting  what level of sublinks in page
-    like main_page have link carrers
-                carrers have link apply_job
-                    and so on............
-
-"""
 
 import requests
 from bs4 import BeautifulSoup
